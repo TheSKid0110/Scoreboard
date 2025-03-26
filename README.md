@@ -2,6 +2,10 @@
 
 A custom scoreboard addon for Garry's Mod, designed to provide a clean and informative UI with player statistics such as kills, deaths, and ping.
 
+## Screenshot
+
+![Scoreboard UI](images/scoreboard.png)
+
 ## Features
 - Custom scoreboard with an intuitive UI.
 - Displays player name, kills, deaths, and ping.
