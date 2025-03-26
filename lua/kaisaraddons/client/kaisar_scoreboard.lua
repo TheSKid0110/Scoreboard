@@ -1,3 +1,13 @@
+hook.Add("Initialize", "CheckDarkRP",function()
+    local currentGamemode = gmod.GetGamemode()
+    if currentGamemode and currentGamemode.Name == "DarkRP" then
+        -- Remove the default DarkRP scoreboard
+        hook.Remove("ScoreboardShow", "DarkRPScoreboardShow")
+        hook.Remove("ScoreboardHide", "DarkRPScoreboardHide")
+    end
+end)
+
+
 local KaisarScoreboard = {}
 local notifications = {}
 

@@ -1,1 +1,0 @@
-AddCSLuaFile("kaisars_scoreboard.lua")
