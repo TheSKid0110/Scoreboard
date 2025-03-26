@@ -18,9 +18,6 @@ A custom scoreboard addon for Garry's Mod, designed to provide a clean and infor
 - Click on a player's row to copy their SteamID to the clipboard.
 - Hover over player rows to highlight them.
 
-## Dependencies
-- Requires the `vgui` library (built into Garry's Mod).
-
 ## Customization
 - Modify the scoreboard size and colors in `KaisarScoreboard:Paint`.
 - Adjust the notification duration and appearance in `AddNotification`.
